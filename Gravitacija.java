@@ -1,11 +1,11 @@
+import java.util.*;
 public class Gravitacija {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("OIS je zakon!");
+        int visina = sc.nextInt();
+        izpis(visina);
 
-        izpis(0.0);
-        izpis(10.0);
-        izpis(1000.0);
-        izpis(100000.0);
 
     }
     public static void izpis(double visina) {
